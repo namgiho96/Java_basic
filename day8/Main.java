@@ -32,7 +32,7 @@ public class Main {
 						GenderChack chack = new GenderChack();
 						break;
 					case "5":
-						Grade grade =  new Grade();
+						Year grade =  new Year();
 						break;
 					default: break;			
 				}

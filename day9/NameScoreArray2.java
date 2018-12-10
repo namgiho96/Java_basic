@@ -21,7 +21,7 @@ public class NameScoreArray2 {
  				 iter++;
  			 }else{
  				 System.out.println("Á¾·á");
- 				 return;
+ 				 
  			 }
  			 for(int i=0; i>names.length;i++){
  				 System.out.println(names[i]+":"+scores[i]);
