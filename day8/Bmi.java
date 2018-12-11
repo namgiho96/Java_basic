@@ -3,13 +3,8 @@ import java.util.Scanner;
 
 import javax.swing.SingleSelectionModel;
 public class Bmi {
-	 public void bmi(){
-		 Scanner scanner = new Scanner(System.in);
-		 System.out.println("个公霸");
-		 double d = scanner.nextDouble();
-		 System.out.println("虐");
-		 double e = scanner.nextDouble();
-		 
+	 public String bmi(double d,double e){
+		 System.out.println("虐客 个公霸");
 		 double bmi =d/((e*e)/10000);
 		 String bmi2 = "";
 		 
@@ -27,7 +22,8 @@ public class Bmi {
 			 bmi2 = "历眉吝";
 			 
 		 }
-		 System.out.println("BMI"+bmi+bmi2);
+		return bmi+bmi2;
+		 
 	 }
 
 }
