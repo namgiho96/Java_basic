@@ -24,7 +24,7 @@ public class BMI {
 		}else{
 			bmi2 = "ÀúÃ¼Áß";
 		}
-				System.out.println("BMI:"+bmi+bmi2);
+				System.out.printf("BMI"+"%f,%s",bmi,bmi2);
 	}
 }
 

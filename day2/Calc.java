@@ -17,6 +17,6 @@ public class Calc {
 		case "/": res = num % num1;	break;
 		case "%": res = num / num1;	break;
 		}
-		System.out.println(res);
+		System.out.printf("%d %s %d = %d",num ,op, num1, res);
 	}
 }

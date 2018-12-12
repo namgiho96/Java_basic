@@ -25,6 +25,6 @@ public class Grade {
 		}else {
 			res2 = "F";
 		}
-		System.out.println("È«±æµ¿"+all+"Á¡"+"Æò±Õ"+res+"¼ºÀû"+res2);
+		System.out.printf("%f,%s",res,res2);
 	}
 }
